@@ -1,0 +1,81 @@
+.register-page-container {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+
+.register-form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.register-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  width: 35vw;
+  margin-top: 3.8rem;
+}
+
+.register-pic-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35vw;
+  height: 70vh;
+}
+
+.register-team-pic {
+  margin-top: 7.65rem;
+  height: 43vh;
+}
+
+.register-form-title {
+  margin-top: -4rem;
+  margin-bottom: 1rem;
+}
+
+.register-title-hr {
+  margin-top: -0.5rem;
+  width: 20vw;
+  color: rgb(185, 185, 185);
+  height: 5px;
+}
+
+.register-form Button {
+  background-color: #62f73c;
+  border-color: #62f73c;
+  box-shadow: 3px 3px 0 0px rgba(112, 47, 233, 0.5);
+}
+
+.register-form Button:hover {
+  background-color: #3cf7ee;
+  border-color: #3cf7ee;
+  box-shadow: 3px 3px 0 0px rgba(65, 240, 123, 0.89);
+}
+
+.register-form button:focus {
+  background-color: #3cf75b;
+  border-color: #3f3cf7;
+  box-shadow: 3px 3px 0 0px rgba(65, 185, 240, 0.89);
+}
+
+.login-redirect-message {
+  margin-top: 0.8rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .register-pic-container {
+    display: none;
+  }
+  .login-redirect-message {
+    margin-bottom: 3rem;
+  }
+}
+
+.register-footer {
+  padding-bottom: 10px;
+}
