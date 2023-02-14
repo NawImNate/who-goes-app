@@ -1,0 +1,13 @@
+.footer-section {
+  margin-top: 3rem;
+  bottom: 2.5rem;
+  width: 80vw;
+  height: 2.5rem;
+  margin-left: 10vw;
+  z-index: 1000;
+}
+
+hr {
+  color: rgb(185, 185, 185);
+  height: 5px;
+}
